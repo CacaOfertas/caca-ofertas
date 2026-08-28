@@ -36,4 +36,4 @@ Para um teste A/B manual, use links separados de V1 e V2 nos conjuntos de anúnc
 
 ## Atualização visual
 
-A imagem principal usada no lugar da logo foi substituída por uma arte promocional de descontos para reforçar a proposta da landing page.
+A imagem principal foi substituída pela arte promocional enviada, no lugar da logo, nas versões principal, V1 e V2.
