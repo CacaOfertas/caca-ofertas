@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0a0a0b">
+  <meta name="description" content="Entre grátis no grupo VIP Caça Ofertas no WhatsApp e receba cupons, achadinhos e alertas de ofertas do Mercado Livre, Shopee e Amazon.">
+  <title>Caça Ofertas | Grupo VIP Grátis no WhatsApp</title>
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1595527468878177');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1595527468878177&ev=PageView&noscript=1"
+      alt="">
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- =========================================================
+       GOOGLE ANALYTICS / GOOGLE ADS — COLE SUA TAG GTAG AQUI
+       Os CTAs desta página já disparam o evento click_whatsapp.
+  ========================================================== -->
+
+  <style>
+    :root{
+      --bg:#09090b;
+      --bg2:#111114;
+      --card:#16161b;
+      --text:#fff;
+      --muted:#b8b8c2;
+      --orange:#ff6700;
+      --orange2:#ff8a00;
+      --gold:#ffb703;
+      --green:#25d366;
+      --green2:#35e778;
+      --line:rgba(255,255,255,.10);
+      --shadow:0 18px 58px rgba(0,0,0,.38);
+      --radius:22px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      color:var(--text);
+      background:
+        radial-gradient(circle at 12% 0%,rgba(255,103,0,.20),transparent 29%),
+        radial-gradient(circle at 90% 12%,rgba(255,183,3,.10),transparent 25%),
+        var(--bg);
+      font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      line-height:1.45;
+      -webkit-font-smoothing:antialiased;
+    }
+    a{color:inherit}
+    img{display:block;max-width:100%}
+    button,a{-webkit-tap-highlight-color:transparent}
+    .wrap{width:min(1120px,calc(100% - 30px));margin:auto}
+
+    .ticker{
+      position:relative;
+      z-index:20;
+      border-bottom:1px solid rgba(255,183,3,.28);
+      background:linear-gradient(90deg,#ff5b00,#ff8a00 52%,#ffb000);
+      color:#1b0b00;
+      font-size:12px;
+      font-weight:1000;
+      letter-spacing:.055em;
+      text-align:center;
+      text-transform:uppercase;
+      padding:9px 12px;
+    }
+
+    .hero{padding:34px 0 26px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:42px;align-items:center}
+    .eyebrow{
+      display:inline-flex;align-items:center;gap:8px;
+      padding:8px 12px;border-radius:999px;
+      border:1px solid rgba(255,183,3,.30);
+      background:rgba(255,183,3,.09);color:#ffd76c;
+      font-size:13px;font-weight:900;margin-bottom:16px;
+    }
+    h1{font-size:clamp(42px,6.5vw,78px);line-height:.97;letter-spacing:-.05em;margin:0}
+    .hot{background:linear-gradient(90deg,var(--orange),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{font-size:clamp(18px,2vw,23px);color:#e3e3e8;margin:20px 0 16px;max-width:720px}
+    .lead strong{color:#fff}
+
+    .proof-strip{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 19px}
+    .proof-chip{border:1px solid var(--line);background:rgba(255,255,255,.045);border-radius:999px;padding:8px 10px;font-size:12px;font-weight:800;color:#ececf0}
+
+    .cta{
+      display:flex;align-items:center;justify-content:center;gap:10px;
+      width:min(100%,620px);min-height:68px;padding:16px 20px;
+      border-radius:17px;text-decoration:none;text-align:center;
+      font-weight:1000;font-size:clamp(16px,2vw,20px);letter-spacing:-.01em;
+      color:#06270e;background:linear-gradient(180deg,var(--green2),var(--green));
+      box-shadow:0 11px 32px rgba(37,211,102,.34);
+      transition:transform .2s ease,box-shadow .2s ease,filter .2s ease;
+      animation:ctaPulse 1.65s infinite;
+    }
+    .cta:hover{transform:translateY(-2px) scale(1.01);box-shadow:0 15px 44px rgba(37,211,102,.45);filter:saturate(1.06)}
+    .cta:focus-visible{outline:3px solid #fff;outline-offset:4px}
+    @keyframes ctaPulse{0%,100%{box-shadow:0 11px 30px rgba(37,211,102,.30)}50%{box-shadow:0 11px 48px rgba(37,211,102,.58)}}
+
+    .under-cta{display:flex;flex-wrap:wrap;gap:9px 15px;color:#b8b8c2;font-size:12px;margin-top:11px}
+
+    .timer-card{
+      width:min(100%,620px);margin:18px 0 0;padding:14px 16px;border-radius:17px;
+      border:1px solid rgba(255,183,3,.28);background:linear-gradient(90deg,rgba(255,103,0,.12),rgba(255,183,3,.07));
+      display:flex;align-items:center;justify-content:space-between;gap:16px;
+    }
+    .timer-copy strong{display:block;font-size:14px}.timer-copy span{display:block;color:#bdbdc6;font-size:11px;margin-top:2px}
+    .timer{font-variant-numeric:tabular-nums;font-size:26px;font-weight:1000;color:#ffd15a;letter-spacing:.03em;white-space:nowrap}
+    .timer-note{font-size:10px;color:#85858f;margin:7px 0 0;max-width:620px}
+
+    .visual-card{position:relative;border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.075),rgba(255,255,255,.025));box-shadow:var(--shadow);border-radius:30px;padding:18px;overflow:hidden}
+    .visual-card:before{content:"";position:absolute;inset:auto -80px -100px auto;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(255,103,0,.35),transparent 67%)}
+    .visual-card img{width:min(100%,490px);margin:auto;border-radius:22px;position:relative;z-index:1}
+    .mini-badge{position:absolute;z-index:2;left:18px;bottom:18px;background:#101013;border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:10px 12px;font-size:12px;font-weight:900;box-shadow:0 10px 30px rgba(0,0,0,.28)}
+    .mini-badge b{color:#55e98c}
+
+    .trust-row{padding:10px 0 32px}
+    .trust-inner{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+    .trust-item{padding:14px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.03);font-size:13px;text-align:center;color:#d9d9df;font-weight:800}
+
+    section{padding:44px 0}
+    .section-title{text-align:center;font-size:clamp(30px,4vw,46px);line-height:1.03;letter-spacing:-.035em;margin:0 auto 10px;max-width:800px}
+    .section-sub{text-align:center;color:var(--muted);max-width:680px;margin:0 auto 26px}
+
+    .benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+    .benefit{border:1px solid var(--line);background:var(--card);border-radius:var(--radius);padding:23px;min-height:210px;position:relative;overflow:hidden}
+    .benefit:after{content:"";position:absolute;width:130px;height:130px;right:-55px;top:-55px;border-radius:50%;background:rgba(255,103,0,.08)}
+    .benefit .icon{font-size:32px;margin-bottom:12px}.benefit h3{margin:0 0 8px;font-size:20px}.benefit p{margin:0;color:var(--muted)}
+
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;counter-reset:steps}
+    .step{counter-increment:steps;border-radius:20px;padding:21px;border:1px solid var(--line);background:rgba(255,255,255,.035)}
+    .step:before{content:counter(steps);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--orange),var(--gold));color:#1d0c00;font-weight:1000;margin-bottom:12px}
+    .step h3{margin:0 0 6px;font-size:18px}.step p{margin:0;color:var(--muted);font-size:14px}
+
+    .urgency{border:1px solid rgba(255,183,3,.28);background:linear-gradient(120deg,rgba(255,103,0,.13),rgba(255,183,3,.07));border-radius:26px;padding:25px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:22px}
+    .urgency h3{margin:0 0 5px;font-size:24px}.urgency p{margin:0;color:#d0d0d7}.urgency .tag{background:var(--orange);color:#fff;border-radius:999px;padding:11px 14px;font-weight:1000;font-size:12px;white-space:nowrap}
+
+    .objections{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+    .objection{padding:18px;border-radius:18px;border:1px solid var(--line);background:#121216}.objection b{display:block;margin-bottom:5px}.objection span{color:var(--muted);font-size:14px}
+
+    .final{padding:50px 0 72px;text-align:center}
+    .final-box{border:1px solid rgba(37,211,102,.20);background:linear-gradient(180deg,rgba(37,211,102,.07),rgba(255,255,255,.025));border-radius:28px;padding:34px 22px;box-shadow:var(--shadow)}
+    .final-box .cta{margin:22px auto 0}
+
+    footer{border-top:1px solid var(--line);padding:30px 0 110px;color:#85858f;font-size:11px;text-align:center}
+    footer p{max-width:900px;margin:8px auto}
+
+    .sticky-mobile{display:none}
+
+    @media(max-width:880px){
+      .hero-grid{grid-template-columns:1fr;gap:26px}.hero-copy{text-align:center}.lead{margin-left:auto;margin-right:auto}.proof-strip,.under-cta{justify-content:center}.cta,.timer-card,.timer-note{margin-left:auto;margin-right:auto}.visual-card{max-width:580px;margin:auto}.trust-inner{grid-template-columns:1fr 1fr}.benefits,.steps{grid-template-columns:1fr}.urgency{grid-template-columns:1fr;text-align:center}.urgency .tag{justify-self:center}.objections{grid-template-columns:1fr}
+    }
+    @media(max-width:620px){
+      body{padding-bottom:83px}.wrap{width:min(100% - 20px,1120px)}.ticker{font-size:10px;padding:8px}.hero{padding-top:20px}.eyebrow{font-size:11px}.hero-copy h1{font-size:clamp(39px,13.4vw,58px)}.lead{font-size:18px}.visual-card{padding:10px;border-radius:22px}.mini-badge{left:12px;bottom:12px}.trust-row{padding-bottom:20px}.trust-inner{grid-template-columns:1fr 1fr;gap:8px}.trust-item{font-size:11px;padding:11px 7px}.timer-card{padding:12px}.timer{font-size:23px}.timer-copy{text-align:left}.timer-note{text-align:left}.final{padding-bottom:32px}.sticky-mobile{position:fixed;z-index:50;display:block;left:0;right:0;bottom:0;padding:9px max(10px,env(safe-area-inset-right)) calc(9px + env(safe-area-inset-bottom)) max(10px,env(safe-area-inset-left));background:rgba(8,8,10,.93);border-top:1px solid rgba(255,255,255,.12);backdrop-filter:blur(12px)}.sticky-mobile .cta{min-height:55px;border-radius:14px;font-size:14px;padding:10px 12px}.sticky-mobile small{display:block;text-align:center;margin-top:4px;color:#aaaab3;font-size:9px}footer{padding-bottom:35px}
+    }
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
+  </style>
+</head>
+<body>
+  <div class="ticker">🔥 Cupons • Achadinhos • Ofertas relâmpago • Alertas de preço</div>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">💚 Grupo VIP gratuito no WhatsApp</div>
+          <h1>Pague menos.<br><span class="hot">Descubra antes.</span></h1>
+          <p class="lead"><strong>A gente garimpa as oportunidades.</strong> Você recebe ofertas, cupons e achadinhos do Mercado Livre, Shopee e Amazon direto no WhatsApp.</p>
+
+          <div class="proof-strip" aria-label="Vantagens rápidas">
+            <span class="proof-chip">✓ Sem cadastro</span>
+            <span class="proof-chip">✓ Sem cartão</span>
+            <span class="proof-chip">✓ Entrada grátis</span>
+            <span class="proof-chip">✓ Só admins enviam</span>
+          </div>
+
+          <a class="cta js-whatsapp" data-cta="hero" href="https://chat.whatsapp.com/K3qHR7EAsK492VDoDaMZ8o" target="_blank" rel="noopener noreferrer">💬 ENTRAR AGORA NO GRUPO VIP GRÁTIS</a>
+          <div class="under-cta"><span>🔒 Acesso direto pelo WhatsApp</span><span>⚡ Leva poucos segundos</span><span>📵 Sem conversa aleatória no grupo</span></div>
+
+          <div class="timer-card" aria-label="Contador visual da sessão">
+            <div class="timer-copy"><strong>⏱️ Ofertas mudam rápido</strong><span>Use o contador como lembrete para não deixar para depois.</span></div>
+            <div id="timer" class="timer">10:00</div>
+          </div>
+          <p class="timer-note">Transparência: este é um contador visual da sessão. Ele reinicia em uma nova visita e não representa o fechamento real do grupo.</p>
+        </div>
+
+        <div class="visual-card" aria-label="Caça Ofertas">
+          <img src="logo-caca-ofertas.png" width="640" height="640" alt="Imagem promocional de descontos do Caça Ofertas" loading="eager" decoding="async">
+          <div class="mini-badge"><b>● ONLINE</b> · acesso pelo WhatsApp</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust-row">
+      <div class="wrap trust-inner">
+        <div class="trust-item">🟠 Mercado Livre</div>
+        <div class="trust-item">🟧 Shopee</div>
+        <div class="trust-item">🟨 Amazon</div>
+        <div class="trust-item">🟢 WhatsApp</div>
+      </div>
+    </div>
+
+    <section id="beneficios">
+      <div class="wrap">
+        <h2 class="section-title">Menos tempo procurando. <span class="hot">Mais chance de economizar.</span></h2>
+        <p class="section-sub">O grupo foi pensado para quem quer receber oportunidades de compra sem precisar ficar abrindo vários aplicativos o dia inteiro.</p>
+        <div class="benefits">
+          <article class="benefit"><div class="icon">🎯</div><h3>Descontos e cupons selecionados</h3><p>Uma curadoria prática de achadinhos e promoções em lojas populares.</p></article>
+          <article class="benefit"><div class="icon">⚡</div><h3>Alertas de oportunidades rápidas</h3><p>Quando aparece algo interessante, o aviso pode chegar no seu WhatsApp enquanto a condição ainda está disponível.</p></article>
+          <article class="benefit"><div class="icon">🔒</div><h3>Grupo organizado e gratuito</h3><p>Apenas administradores enviam mensagens. Você acompanha as ofertas sem virar um grupo de conversa.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2 class="section-title">Entrar leva <span class="hot">3 passos</span></h2>
+        <p class="section-sub">Sem formulário e sem criar outra conta.</p>
+        <div class="steps">
+          <div class="step"><h3>Toque no botão</h3><p>Você será direcionado para o convite oficial do grupo no WhatsApp.</p></div>
+          <div class="step"><h3>Abra o WhatsApp</h3><p>Confira o nome do grupo e toque para entrar.</p></div>
+          <div class="step"><h3>Pronto</h3><p>A partir daí, acompanhe os próximos cupons, descontos e achadinhos publicados.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="urgency">
+          <div><h3>🔥 Grupo 1 com acesso pelo link atual</h3><p>Se você quer acompanhar as próximas oportunidades, entre enquanto este convite estiver ativo.</p></div>
+          <div class="tag">ENTRADA 100% GRÁTIS</div>
+        </div>
+
+        <div class="objections">
+          <div class="objection"><b>“Vou receber spam?”</b><span>O grupo é configurado para mensagens dos administradores, mantendo o foco nas ofertas.</span></div>
+          <div class="objection"><b>“Preciso comprar alguma coisa?”</b><span>Não. Entrar no grupo é gratuito e você decide se alguma oferta faz sentido para você.</span></div>
+          <div class="objection"><b>“Preciso informar cartão?”</b><span>Não. O botão apenas leva ao convite do grupo no WhatsApp.</span></div>
+          <div class="objection"><b>“As ofertas ficam disponíveis para sempre?”</b><span>Não necessariamente. Preços, cupons e estoque podem mudar a qualquer momento nas lojas.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final">
+      <div class="wrap">
+        <div class="final-box">
+          <h2 class="section-title">Seu próximo achadinho pode chegar <span class="hot">pelo WhatsApp.</span></h2>
+          <p class="section-sub">Entre grátis no Caça Ofertas e acompanhe as próximas oportunidades selecionadas pela equipe.</p>
+          <a class="cta js-whatsapp" data-cta="final" href="https://chat.whatsapp.com/K3qHR7EAsK492VDoDaMZ8o" target="_blank" rel="noopener noreferrer">💬 QUERO ENTRAR NO CAÇA OFERTAS</a>
+          <div class="under-cta" style="justify-content:center"><span>✓ Gratuito</span><span>✓ Direto no WhatsApp</span><span>✓ Sem formulário</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Este site não é afiliado oficialmente ao Meta, Mercado Livre, Shopee ou Amazon. Atuamos como divulgadores de ofertas.</p>
+      <p>Preços, estoque, cupons e condições são definidos pelas lojas e podem mudar sem aviso prévio. Verifique as informações no site ou aplicativo da loja antes de comprar.</p>
+    </div>
+  </footer>
+
+  <div class="sticky-mobile" aria-label="Ação fixa no celular">
+    <a class="cta js-whatsapp" data-cta="sticky-mobile" href="https://chat.whatsapp.com/K3qHR7EAsK492VDoDaMZ8o" target="_blank" rel="noopener noreferrer">💬 ENTRAR GRÁTIS NO GRUPO VIP</a>
+    <small>WhatsApp · sem cadastro · gratuito</small>
+  </div>
+
+  <script>
+    // Contador visual de sessão: transparente e não associado a fechamento real do grupo.
+    (function(){
+      var duration = 10 * 60;
+      var key = 'cacaOfertasTimerStart';
+      var now = Date.now();
+      var start = Number(sessionStorage.getItem(key));
+      if (!start || now - start > duration * 1000) {
+        start = now;
+        sessionStorage.setItem(key, String(start));
+      }
+      var el = document.getElementById('timer');
+      function render(){
+        var elapsed = Math.floor((Date.now() - start) / 1000);
+        var left = Math.max(0, duration - elapsed);
+        var min = String(Math.floor(left / 60)).padStart(2,'0');
+        var sec = String(left % 60).padStart(2,'0');
+        el.textContent = min + ':' + sec;
+        if (left > 0) requestAnimationFrame(function(){setTimeout(render, 250)});
+      }
+      render();
+    })();
+
+    // Guarda parâmetros UTM localmente para análise posterior no navegador.
+    (function(){
+      try {
+        var params = new URLSearchParams(location.search);
+        var utm = {};
+        ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','fbclid','gclid'].forEach(function(k){
+          if (params.get(k)) utm[k] = params.get(k);
+        });
+        if (Object.keys(utm).length) localStorage.setItem('cacaOfertasAttribution', JSON.stringify(utm));
+      } catch(e) {}
+    })();
+
+    // Eventos de clique para Meta Pixel e GA4/Google Ads, quando instalados no <head>.
+    document.querySelectorAll('.js-whatsapp').forEach(function(link){
+      link.addEventListener('click', function(){
+        var placement = link.getAttribute('data-cta') || 'unknown';
+        var attribution = {};
+        try { attribution = JSON.parse(localStorage.getItem('cacaOfertasAttribution') || '{}'); } catch(e) {}
+
+        try {
+          if (typeof fbq === 'function') {
+            fbq('track', 'Lead', {content_name:'Grupo VIP Caça Ofertas', cta_placement:placement});
+            fbq('trackCustom', 'WhatsAppJoinClick', Object.assign({cta_placement:placement}, attribution));
+          }
+        } catch(e) {}
+
+        try {
+          if (typeof gtag === 'function') {
+            gtag('event', 'click_whatsapp', Object.assign({event_category:'engagement', event_label:'grupo_vip_caca_ofertas', cta_placement:placement}, attribution));
+          }
+        } catch(e) {}
+      });
+    });
+  </script>
+</body>
+</html>
