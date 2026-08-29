@@ -109,7 +109,8 @@
     .cta:hover{transform:translateY(-2px) scale(1.01);box-shadow:0 15px 44px rgba(37,211,102,.45);filter:saturate(1.06)}
     .cta:focus-visible{outline:3px solid #fff;outline-offset:4px}
     @keyframes ctaPulse{0%,100%{box-shadow:0 11px 30px rgba(37,211,102,.30)}50%{box-shadow:0 11px 48px rgba(37,211,102,.58)}}
-    .final-cta .cta{animation:ctaPulse 1.65s infinite}
+    .final-cta .cta{animation:ctaPulse 1.65s infinite,finalShake 4s infinite}
+    @keyframes finalShake{0%,80%,100%{transform:translateX(0)}83%{transform:translateX(-5px)}86%{transform:translateX(5px)}89%{transform:translateX(-4px)}92%{transform:translateX(4px)}95%{transform:translateX(0)}}
 
     .under-cta{display:flex;flex-wrap:wrap;gap:9px 15px;color:#b8b8c2;font-size:12px;margin-top:11px}
 
